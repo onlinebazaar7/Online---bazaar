@@ -111,3 +111,184 @@
   </div>
 </body>
 </html>
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Bazaar - Product Showcase</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  padding-bottom: 30px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #007bff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.category-tag {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #eef4ff;
+  color: #007bff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 16px;
+  border: 2px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    padding: 16px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🛒 Online Bazaar - Top Picks</h1>
+    <p>Explore trending gadgets, gifts, fitness, grooming, and more!</p>
+  </div>  <div class="products-grid"><div class="product-card">
+  <div class="category-tag">Fitness Supplements</div>
+  <h2 class="product-title">Wellcore Creatine Monohydrate</h2>
+  <p class="product-price">Price: ₹549</p>
+  <p class="product-description">Boost strength and performance with pure Wellcore micronised creatine. Each serving offers 3g of high-quality creatine—perfect for power, endurance, and lean muscle gains.</p>
+  <a href="https://amzn.to/3TuO3DD" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Electronics Accessories</div>
+  <h2 class="product-title">Portronics Clean Multifunctional</h2>
+  <p class="product-price">Price: ₹349</p>
+  <p class="product-description">A compact cleaning kit with brushes, keycap puller, and earbud tip cleaner—ideal for keeping laptops, keyboards, earbuds, and screens spotless.</p>
+  <a href="https://amzn.to/4kKTIkV" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Personal Safety</div>
+  <h2 class="product-title">Self Defence Gadget</h2>
+  <p class="product-price">Price: ₹399</p>
+  <p class="product-description">Compact and foldable, this self defence tool fits in your pocket or bag and can be deployed instantly for personal safety—great for night walks, travel, or emergencies.</p>
+  <a href="https://amzn.to/3I7EVCm" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Home Decor & Gifts</div>
+  <h2 class="product-title">Virat Kohli Trophy Kiss Lamp</h2>
+  <p class="product-price">Price: ₹499</p>
+  <p class="product-description">Celebrate cricket’s glory with this engraved acrylic lamp and LED base. A uniquely designed collectible perfect for fans, gifting or room decor.</p>
+  <a href="https://amzn.to/3I1599K" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Home Decor & Anime Merch</div>
+  <h2 class="product-title">Anime Lamps</h2>
+  <p class="product-price">Price: ₹349</p>
+  <p class="product-description">3D LED lamps shaped like popular anime characters. USB powered, energy-efficient & perfect for desks or gifting to fans.</p>
+  <a href="https://amzn.to/4k71XXu" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Personal Care & Grooming</div>
+  <h2 class="product-title">Grooming Kit for Men and Women</h2>
+  <p class="product-price">Price: ₹449</p>
+  <p class="product-description">A sleek manicure set featuring clippers, scissors, pushers, tweezers and more in an elegant travel case. Ideal for daily use or travel.</p>
+  <a href="https://amzn.to/4koJiGC" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Kids’ Night Lamps</div>
+  <h2 class="product-title">Cute Animals Lamp for Kids</h2>
+  <p class="product-price">Price: ₹549</p>
+  <p class="product-description">USB rechargeable silicone night lamp with adorable animal shapes—bunny, duck or capybara. Safe, dimmable, and bedtime-friendly.</p>
+  <a href="https://amzn.to/44iSpUO" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Everyday Carry & Tools</div>
+  <h2 class="product-title">Key Chain Light</h2>
+  <p class="product-price">Price: ₹149</p>
+  <p class="product-description">Bright LED light on your keychain for quick illumination on the go. Compact, reliable, and ideal for emergencies or late-night needs.</p>
+  <a href="https://amzn.to/3IjxXKL" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Pet Toys</div>
+  <h2 class="product-title">Pet Automatic Toy</h2>
+  <p class="product-price">Price: ₹149</p>
+  <p class="product-description">LED-lit self-moving toy with soft rope tail stimulating pets' instincts. Rechargeable and pet-safe—perfect for cats and small dogs.</p>
+  <a href="https://amzn.to/4lfi72m" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+<div class="product-card">
+  <div class="category-tag">Watches & Accessories</div>
+  <h2 class="product-title">Watch for Car Lovers</h2>
+  <p class="product-price">Price: ₹1,798</p>
+  <p class="product-description">Car wheel-inspired dial, stainless steel build, and Japanese quartz movement make this wristwatch a stylish choice for auto fans.</p>
+  <a href="https://amzn.to/4eEeFvC" class="buy-button" target="_blank">Buy Now</a>
+</div>
+
+  </div>
+</body>
+</html>
