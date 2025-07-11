@@ -1,164 +1,125 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Online Bazaar - Affiliate Products</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background-color: #1e1e2f;
-      color: #fff;
-      padding: 1rem 2rem;
-      text-align: center;
-    }
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      padding: 2rem;
-    }
-    .product-card {
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease;
-    }
-    .product-card:hover {
-      transform: translateY(-5px);
-    }
-    .product-card img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-    }
-    .product-card .content {
-      padding: 1rem;
-    }
-    .product-card h3 {
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem;
-    }
-    .product-card p {
-      font-size: 0.9rem;
-      margin: 0 0 1rem;
-    }
-    .product-card .price {
-      font-weight: bold;
-      color: #e91e63;
-      margin-bottom: 1rem;
-    }
-    .product-card a {
-      text-decoration: none;
-      background: #1e1e2f;
-      color: #fff;
-      padding: 0.6rem 1rem;
-      border-radius: 5px;
-      display: inline-block;
-      text-align: center;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #1e1e2f;
-      color: #fff;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Online Bazaar</h1>
-    <p>Top Trending Affiliate Products - Handpicked for You!</p>
-  </header>  <section class="product-grid">
-    <div class="product">
-  <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/creatine.png" alt="Wellcore Creatine Monohydrate">
-  <h3>Wellcore Creatine Monohydrate</h3>
-  <p><strong>Price:</strong> ₹649</p>
-  <p><strong>Category:</strong> Fitness & Supplements</p>
-  <p><strong>Description:</strong> Kiwi Citrus flavored Micronized Creatine Monohydrate. 3g per scoop, 33 servings. Boosts ATP, enhances muscle growth, zero side effects.</p>
-  <a href="https://amzn.to/yourproductlink" target="_blank">Buy Now</a>
-    </div>
-    
-<div class="product-card">
-  <img src="https://chat.openai.com/media/images/Self_Defence_Keychain.jpg" alt="Self Defence Keychain">
-  <div class="content">
-    <h3>Tactical Self-Defence Keychain Knife</h3>
-    <p>Compact and tough — use as a utility cutter or personal safety tool.</p>
-    <div class="price">₹399</div>
-    <a href="https://amzn.to/3I7EVCm" target="_blank">Buy Now</a>
+<!-- PRODUCT GALLERY START -->
+<div class="products-grid">
+
+  <!-- 1. Wellcore Creatine Monohydrate -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/wellcore-creatine.png" alt="Wellcore Creatine Monohydrate" class="product-image">
+    <h2 class="product-title">Wellcore Creatine Monohydrate</h2>
+    <p class="product-price">₹549</p>
+    <p class="product-description">
+      Boost strength and performance with pure Wellcore micronised creatine. Each serving offers 3g of high-quality creatine—perfect for power, endurance, and lean muscle gains. Mixes effortlessly and suits both beginners and pros.
+    </p>
+    <p><strong>Category:</strong> Fitness Supplements</p>
+    <a href="https://amzn.to/3TuO3DD" class="buy-button" target="_blank">Buy Now</a>
   </div>
-</div>
 
-<div class="product-card">
-  <img src="https://chat.openai.com/media/images/Virat_Kohli_Lamp.jpg" alt="Virat Trophy Lamp">
-  <div class="content">
-    <h3>Virat Kohli Trophy Kiss LED Lamp</h3>
-    <p>Celebrate the T20 win with this glowing tribute to King Kohli. Great gift for fans.</p>
-    <div class="price">₹499</div>
-    <a href="https://amzn.to/3I1599K" target="_blank">Buy Now</a>
+  <!-- 2. Portronics Clean Multifunctional -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/portronics-clean-multifunctional.png" alt="Portronics Clean Multifunctional" class="product-image">
+    <h2 class="product-title">Portronics Clean Multifunctional</h2>
+    <p class="product-price">₹349</p>
+    <p class="product-description">
+      A compact cleaning kit with brushes, keycap puller, and earbud tip cleaner—ideal for keeping laptops, keyboards, earbuds, and screens spotless. Durable, portable, and easy to use.
+    </p>
+    <p><strong>Category:</strong> Electronics Accessories</p>
+    <a href="https://amzn.to/4kKTIkV" class="buy-button" target="_blank">Buy Now</a>
   </div>
-</div>
 
-<div class="product-card">
-  <img src="https://chat.openai.com/media/images/Vegeta_Lamp.jpg" alt="Vegeta Lamp">
-  <div class="content">
-    <h3>Dragon Ball Z Vegeta 3D Night Lamp</h3>
-    <p>Let the Saiyan warrior light up your room. Cool collectible for anime lovers.</p>
-    <div class="price">₹349</div>
-    <a href="https://amzn.to/4k71XXu" target="_blank">Buy Now</a>
+  <!-- 3. Self Defence Gadget -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/self-defence-gadget.png" alt="Self Defence Gadget" class="product-image">
+    <h2 class="product-title">Self Defence Gadget</h2>
+    <p class="product-price">₹399</p>
+    <p class="product-description">
+      Compact and foldable, this self defence tool fits in your pocket or bag and can be deployed instantly for personal safety—great for night walks, travel, or emergencies.
+    </p>
+    <p><strong>Category:</strong> Personal Safety</p>
+    <a href="https://amzn.to/3I7EVCm" class="buy-button" target="_blank">Buy Now</a>
   </div>
-</div>
 
-<div class="product-card">
-  <img src="https://chat.openai.com/media/images/Skmei_Rim_Watch.jpg" alt="SKMEI Rim Watch">
-  <div class="content">
-    <h3>SKMEI Alloy Wheel Rim Watch</h3>
-    <p>Car lovers rejoice! A bold timepiece styled like a spinning alloy brake wheel.</p>
-    <div class="price">₹1798</div>
-    <a href="https://amzn.to/4038Vpi" target="_blank">Buy Now</a>
+  <!-- 4. Virat Kohli Trophy Kiss Lamp -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/virat-kohli-trophy-kiss-lamp.png" alt="Virat Kohli Trophy Kiss Lamp" class="product-image">
+    <h2 class="product-title">Virat Kohli Trophy Kiss Lamp</h2>
+    <p class="product-price">₹499</p>
+    <p class="product-description">
+      Celebrate cricket’s glory with this engraved acrylic lamp and LED base. A uniquely designed collectible perfect for fans, gifting or room decor.
+    </p>
+    <p><strong>Category:</strong> Home Decor & Gifts</p>
+    <a href="https://amzn.to/3I1599K" class="buy-button" target="_blank">Buy Now</a>
   </div>
-</div>
 
-<div class="product-card">
-  <img src="https://chat.openai.com/media/images/Grooming_Kit.jpg" alt="Grooming Kit">
-  <div class="content">
-    <h3>18-in-1 Grooming Kit for Men & Women</h3>
-    <p>Full grooming set with high-precision tools for nails, face, and self-care.</p>
-    <div class="price">₹499</div>
-    <a href="https://amzn.to/3IfbvCv" target="_blank">Buy Now</a>
-
+  <!-- 5. Anime Lamps -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/anime-lamps.png" alt="Anime Lamps" class="product-image">
+    <h2 class="product-title">Anime Lamps</h2>
+    <p class="product-price">₹349</p>
+    <p class="product-description">
+      3D LED lamps shaped like popular anime characters. USB powered, energy-efficient & perfect for desks or gifting to fans.
+    </p>
+    <p><strong>Category:</strong> Home Decor & Anime Merch</p>
+    <a href="https://amzn.to/4k71XXu" class="buy-button" target="_blank">Buy Now</a>
   </div>
-<div class="product">
-  <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/41pUMbeNxsL._SY445_SX342_QL70_FMwebp_.webp" alt="Toy Lamp">
-  <h3>Toy Lamps</h3>
-  <p><strong>Price:</strong> ₹549</p>
-  <p><strong>Category:</strong> Home Decor & Night Lamps</p>
-  <p><strong>Description:</strong> Cute panda-shaped night lamp that doubles as a soft toy. Perfect for kids' rooms, cozy ambiance, or gifting purposes. Soft glow lighting with an adorable design.</p>
-  <a href="https://amzn.to/44iSpUO" target="_blank">Buy Now</a>
-</div>
 
-<div class="product-card">
-  <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/keychain_light.png" alt="Keychain Light">
-  <h3>Keychain Light</h3>
-  <p class="price">₹149</p>
-  <p class="description">
-    A compact and powerful mini flashlight with ultra-bright LED, USB rechargeable, and magnetic base. Ideal for travel, camping, or emergencies.
-  </p>
-  <a href="https://amzn.to/3IjxXKL" target="_blank" class="buy-button">Buy Now</a>
-</div>
+  <!-- 6. Grooming Kit for Men and Women -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/grooming-kit-men-women.png" alt="Grooming Kit for Men and Women" class="product-image">
+    <h2 class="product-title">Grooming Kit for Men and Women</h2>
+    <p class="product-price">₹449</p>
+    <p class="product-description">
+      A sleek manicure set featuring clippers, scissors, pushers, tweezers and more in an elegant travel case. Ideal for daily use or travel.
+    </p>
+    <p><strong>Category:</strong> Personal Care & Grooming</p>
+    <a href="https://amzn.to/4koJiGC" class="buy-button" target="_blank">Buy Now</a>
+  </div>
 
-<div class="product-card">
-  <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/pet-automatic-toy.png" alt="Pet Automatic Toy" class="product-image">
-  <h2 class="product-title">Pet Automatic Toy 🪀</h2>
-  <p class="product-price">Price: ₹149</p>
-  <p class="product-description">
-    Keep your furry friend engaged and active with this <strong>automatic pet toy</strong>! Designed with colorful LED lights and a soft red rope tail, it moves unpredictably to excite your pet’s instincts. Perfect for solo or interactive play, it's built to keep cats (and even small dogs) entertained, active, and happy.
-  </p>
-  <a href="https://amzn.to/4lfi72m" class="buy-button" target="_blank">Buy Now</a>
+  <!-- 7. Cute Animals Lamp for Kids -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/cute-animals-lamp-kids.png" alt="Cute Animals Lamp for Kids" class="product-image">
+    <h2 class="product-title">Cute Animals Lamp for Kids</h2>
+    <p class="product-price">₹549</p>
+    <p class="product-description">
+      USB rechargeable silicone night lamp with adorable animal shapes—bunny, duck or capybara. Safe, dimmable, and bedtime-friendly.
+    </p>
+    <p><strong>Category:</strong> Kids’ Night Lamps & Home Decor</p>
+    <a href="https://amzn.to/44iSpUO" class="buy-button" target="_blank">Buy Now</a>
+  </div>
+
+  <!-- 8. Key Chain Light -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/keychain-light.png" alt="Key Chain Light" class="product-image">
+    <h2 class="product-title">Key Chain Light</h2>
+    <p class="product-price">₹149</p>
+    <p class="product-description">
+      Bright LED light on your keychain for quick illumination on the go. Compact, reliable, and ideal for emergencies or late-night needs.
+    </p>
+    <p><strong>Category:</strong> Everyday Carry & Tools</p>
+    <a href="https://amzn.to/3IjxXKL" class="buy-button" target="_blank">Buy Now</a>
+  </div>
+
+  <!-- 9. Pet Automatic Toy -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/pet-automatic-toy.png" alt="Pet Automatic Toy" class="product-image">
+    <h2 class="product-title">Pet Automatic Toy</h2>
+    <p class="product-price">₹149</p>
+    <p class="product-description">
+      LED-lit self-moving toy with soft rope tail stimulating pets' instincts. Rechargeable and pet-safe—perfect for cats and small dogs.
+    </p>
+    <p><strong>Category:</strong> Pet Toys & Entertainment</p>
+    <a href="https://amzn.to/4lfi72m" class="buy-button" target="_blank">Buy Now</a>
+  </div>
+
+  <!-- 10. Watch for Car Lovers -->
+  <div class="product-card">
+    <img src="https://raw.githubusercontent.com/onlinebazaar7/Online---bazaar/main/watch-car-lovers.png" alt="Watch for Car Lovers" class="product-image">
+    <h2 class="product-title">Watch for Car Lovers</h2>
+    <p class="product-price">₹1,798</p>
+    <p class="product-description">
+      Car wheel-inspired dial, stainless steel build, and Japanese quartz movement make this wristwatch a stylish choice for auto fans.
+    </p>
+    <p><strong>Category:</strong> Auto‑Inspired Watches & Accessories</p>
+    <a href="https://amzn.to/4eEeFvC" class="buy-button" target="_blank">Buy Now</a>
+  </div>
+
 </div>
+<!-- PRODUCT GALLERY END -->
